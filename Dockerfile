@@ -9,7 +9,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     unzip \
     wget \
     zip \
-    libxcursor-dev:i386 \
+    libxcursor1 \
+    libxinerama1 \
+    libxrandr2 \
+    libxi6 \
+    libasound2 \
+    libpulse0 \
+    libgl1 \
     && rm -rf /var/lib/apt/lists/*
 
 
